@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.first_row{
+            margin-top: 10px;
+            width: 1469px;
+            height: 440px;
+            background-color: rgba(64, 4, 121, 0.607);
+        }div.second_row{
+            /* background-color: black; */
+            width: 1469px;
+            height: 258px;
+            float: left;
+
+
+        }div.col1{
+            background-color:rgba(168, 168, 10, 0.927);
+            float: left;
+
+        }div.col2{
+            background-color: rgba(10, 187, 10, 0.571);
+            float: left;
+
+        }div.col3{
+            background-color: rgba(140, 140, 244, 0.862);
+            float: left;
+
+        }#col{
+            height: 258px;
+            width: 489px;
+            text-align: center;
+            color: white;
+            font-size: 17px;
+            padding-top: 55px;
+            
+        }
+        h1{
+            color:white;
+            font-size: 45px;
+            /* float: left; */
+        }h2{
+            color: rgb(1, 1, 43);
+            font-size: 45px;
+            margin-top: -43px;
+            margin-left: 5px;
+        }div.text1{
+            margin-left: 152px;
+            margin-top: 16px;
+            padding-top: 94px;
+        }button.btn{
+            height: 58px;
+            width: 214px;
+            background-color: azure;
+            color: rgb(1, 1, 43) ;
+            border: none;
+            border-radius: 5px;
+            /* padding-left: 10px; */
+            margin-left: 157px;
+        }button{
+            height: 58px;
+            width: 214px;
+            background-color: transparent;
+            color: rgb(1, 1, 43) ;
+            border: none;
+            border-radius: 5px;
+            /* padding-left: 10px; */
+            margin-left: 9px;
+            border: 2px solid white;
+
+        }p{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="first_row"> 
+        <div class="text1">
+            <h1>Video Software for</h1><br> <h2>the video-loving business</h2>
+
+    </div>
+<button class="btn">Watch Video</button></div>
+    <div class="second_row">
+        <div class="col1" id="col">
+            <h3>Grow Your Skill</h3>
+            <p>Products classified in the overall Video Editing category <br>are similar in many regards and help companies of <br>all sizes solve their business problems</p>
+            <button>Start For Free</button>
+        </div>
+        <div class="col2" id="col">
+            <h3>Grow Your Skill</h3>
+            <p>Products classified in the overall Video Editing category <br>are similar in many regards and help companies of <br>all sizes solve their business problems</p>
+            <button>Start For Free</button>
+        </div>
+        <div class="col3" id="col">
+            <h3>Grow Your Skill</h3>
+            <p>Products classified in the overall Video Editing category <br>are similar in many regards and help companies of <br>all sizes solve their business problems</p>
+            <button>Start For Free</button>
+        </div>
+    </div>
+</body>
+</html>
